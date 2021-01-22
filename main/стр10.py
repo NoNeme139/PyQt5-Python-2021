@@ -2,9 +2,9 @@ import sys
 from PyQt5.QtWidgets import (QWidget, QDesktopWidget, QApplication)
 
 
-class Example(QWidget):  # класс, который наследуетс из касса QWidget
-    def __init__(self):  # __init__() - Конструктор класса в языке Python
-        super().__init__()  # метод super() возвращает объект родителя из класса Example и мы вызыв его конструктор
+class Example(QWidget): 
+    def __init__(self): 
+        super().__init__()
         self.initUI()
 
     def initUI(self):
